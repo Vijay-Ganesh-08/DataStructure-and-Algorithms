@@ -1,3 +1,5 @@
+package src;
+
 /*
  * Linear Search is a process of iterating through each element of an Array
  * To check for value or process and compare the same

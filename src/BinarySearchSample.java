@@ -1,3 +1,5 @@
+package src;
+
 /*
  * Binary Search is to split the array into 2 parts
  * Starting (s) and End (e) Poisition 
