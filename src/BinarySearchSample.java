@@ -14,7 +14,7 @@ package src;
 public class BinarySearchSample {
 
     public static void main(String[] args) {
-        int i = 25;
+        int i = 31;
         int[] nums = {10, 12, 15, 16, 17, 19, 20, 22, 25, 27, 29, 31};
 
         int index = searchArray(nums, i);
@@ -28,12 +28,15 @@ public class BinarySearchSample {
 
     public static int searchArray(int[] nums, int target) {
 
+        int steps = 0;
         int start = 0;
         int end = nums.length - 1;
 
         while (start <= end) {
+            steps++;
             int mid = (start + end) / 2;
             if (nums[mid] == target) {
+                System.out.println("Steps Taken in Binary : " + steps);
                 return mid;
             } else if (nums[mid] < target) {
                 start = mid + 1;
@@ -41,6 +44,7 @@ public class BinarySearchSample {
                 end = mid - 1;
             }
         }
+        System.out.println("Steps Taken in Binary : " + steps);
         return -1;
     }
 

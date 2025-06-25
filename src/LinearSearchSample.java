@@ -22,12 +22,15 @@ public class LinearSearchSample {
     }
 
     public static int searchArray(int[] nums, int target) {
-
+    int steps = 0;
         for (int i = 0; i < nums.length; i++) {
+            steps++;
             if (nums[i] == target) {
+                System.out.println("Steps Taken in Linear : " + steps);
                 return i;
             }
         }
+        System.out.println("Steps Taken in Linear : " + steps);
         return -1;
     }
 }
