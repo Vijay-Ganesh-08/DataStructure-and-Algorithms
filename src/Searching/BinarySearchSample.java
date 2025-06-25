@@ -1,4 +1,4 @@
-package src;
+package src.Searching;
 
 /*
  * Binary Search is to split the array into 2 parts

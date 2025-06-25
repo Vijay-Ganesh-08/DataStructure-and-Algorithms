@@ -1,4 +1,4 @@
-package src;
+package src.Searching;
 
 public class BinarySearchRecursive {
 

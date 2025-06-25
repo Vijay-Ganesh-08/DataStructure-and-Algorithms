@@ -1,4 +1,4 @@
-package src;
+package src.Searching;
 
 /*
  * Linear Search is a process of iterating through each element of an Array
