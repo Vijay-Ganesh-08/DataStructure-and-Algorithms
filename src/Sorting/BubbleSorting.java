@@ -1,10 +1,10 @@
 package src.Sorting;
 
 /*
- * First iteration : Comparing the first 2 elements, if first element is greater than 2nd element then swap, and same repeats for the rest of the elements.
- * Second Iteration : the last element can be skipped as it has the highest value and the comparison continues as done in 1st iteration.
- * The iteration goes on until all the elements are sorted.
- * Time Complexity is O(n^2) - which means, for every elements it takes twice the steps to execute
+ * First iteration: Comparing the first 2 elements—if the first element is greater than the 2nd element, then swap them. This process repeats for the rest of the elements.
+ * Second iteration: The last element can be skipped as it now has the highest value. The comparison continues as done in the 1st iteration.
+ * The iterations continue until all elements are sorted.
+ * Time Complexity is O(n²)—which means for each element, it takes approximately n steps to execute.
  */
 public class BubbleSorting {
 

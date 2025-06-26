@@ -2,9 +2,10 @@ package src.Sorting;
 
 /*
  * Picks each element and shifting to the right position.
- * if the element is lesser that the first element, insert the current record to first position and shift the other elements to the right.
+ * If the element is lesser that the previous element, insert the current record to previous position and shift the other elements to the right.
  * Assuming the first value is sorted, iteration starts from 2nd element and compare with first element.
- * for each iteration its, compared to the next position and the first element.
+ * for each iteration its, compared to the next position and the previous element.
+ * Time Complexity is O(n²)—which means for each element, it takes approximately n steps to execute, but considered be to better as we are swapping in the outer loop
  */
 
 public class InsertionSorting {

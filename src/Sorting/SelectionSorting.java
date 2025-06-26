@@ -1,10 +1,10 @@
 package src.Sorting;
 
 /*
- * First iteration : Finding the minimum value and swapping it to the front
- * Second Iteration : skipping the 1st element and checking the minimum value and swapping it to the front
- * The iteration goes on until all the elements are sorted.
- * Time Complexity is O(n^2) - which means, for every elements it takes twice the steps to execute
+ * Unlike Bubble sort, selection sort doesn’t swap elements for each iteration.
+ * Selecting the minimum value from the list and swapping it to the front.
+ * No. of swapping is reduced as its done in the outer loop.
+ * Time Complexity is O(n²)—which means for each element, it takes approximately n steps to execute, but considered be to better as we are swapping in the outer loop
  */
 public class SelectionSorting {
     public static void main(String[] args) {
