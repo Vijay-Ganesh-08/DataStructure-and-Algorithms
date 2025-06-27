@@ -1,6 +1,6 @@
 package src.LinkedList;
 
-public class Runner {
+public class LinkedListRunner {
 
     public static void main(String[] args) {
         SampleLinkedList list = new SampleLinkedList();
