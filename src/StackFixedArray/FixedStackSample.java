@@ -1,6 +1,6 @@
 package src.StackFixedArray;
 
-public class StackSample {
+public class FixedStackSample {
 
     int[] stackArray = new int[5];
     int top = 0;
@@ -44,6 +44,7 @@ public class StackSample {
     }
 
     public void show() {
+        System.out.println();
         for(int n : stackArray) {
             System.out.print(n + " ");
         }

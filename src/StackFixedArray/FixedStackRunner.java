@@ -11,10 +11,10 @@ package src.StackFixedArray;
  * Underflow error is thrown when you are trying to access the element when the stack is empty.
  */
 
-public class StackRunner {
+public class FixedStackRunner {
 
     public static void main(String[] args) {
-        StackSample stackSample = new StackSample();
+        FixedStackSample stackSample = new FixedStackSample();
         //Checking if Stack is empty
         System.out.println("Is Empty : " + stackSample.isEmpty());
         //Pushing the values in to Stack
