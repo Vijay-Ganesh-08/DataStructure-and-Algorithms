@@ -1,2 +1,2 @@
 # DataStructure-and-Algorithms
-Contains Basic Data Structures and its Algorithms
+Contains Concept of Data Structures and its Algorithms
