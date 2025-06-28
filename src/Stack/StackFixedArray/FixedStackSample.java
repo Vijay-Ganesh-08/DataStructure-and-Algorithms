@@ -1,4 +1,4 @@
-package src.StackFixedArray;
+package src.Stack.StackFixedArray;
 
 public class FixedStackSample {
 
@@ -10,7 +10,7 @@ public class FixedStackSample {
             stackArray[top] = i;
             top++;
         } else {
-            System.out.println("Stack is full");
+            System.out.println("src.Stack is full");
         }
     }
 
@@ -18,7 +18,7 @@ public class FixedStackSample {
 
         int data = 0;
         if(isEmpty()){
-            System.out.println("Stack is Empty");
+            System.out.println("src.Stack is Empty");
         } else {
             top--;
             data = stackArray[top];

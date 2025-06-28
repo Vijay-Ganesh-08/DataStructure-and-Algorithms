@@ -1,4 +1,4 @@
-package src.StackDynamicArray;
+package src.Stack.StackDynamicArray;
 
 public class DynamicStackSample {
 
@@ -28,7 +28,7 @@ public class DynamicStackSample {
 
         int data = 0;
         if (isEmpty()) {
-            System.out.println("Stack is Empty");
+            System.out.println("src.Stack is Empty");
         } else {
             top--;
             data = stackArray[top];

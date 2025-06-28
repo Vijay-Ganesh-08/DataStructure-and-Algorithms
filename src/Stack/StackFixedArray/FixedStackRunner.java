@@ -1,8 +1,8 @@
-package src.StackFixedArray;
+package src.Stack.StackFixedArray;
 
 /*
- * Stack is ADT (Abstract Data Type) and its features are being used.
- * Stack is LIFO (Last In First Out).
+ * src.Stack is ADT (Abstract Data Type) and its features are being used.
+ * src.Stack is LIFO (Last In First Out).
  * Push is used to add
  * Pop is used to delete & read the first available element,
  * Peek is used to read the first available without removing/deleting
@@ -15,9 +15,9 @@ public class FixedStackRunner {
 
     public static void main(String[] args) {
         FixedStackSample stackSample = new FixedStackSample();
-        //Checking if Stack is empty
+        //Checking if src.Stack is empty
         System.out.println("Is Empty : " + stackSample.isEmpty());
-        //Pushing the values in to Stack
+        //Pushing the values in to src.Stack
         stackSample.push(10);
         stackSample.push(20);
         stackSample.push(30);
@@ -25,23 +25,23 @@ public class FixedStackRunner {
         stackSample.push(50);
         stackSample.push(60);
         stackSample.push(70);
-        //Checking the size of the Stack
+        //Checking the size of the src.Stack
         System.out.println("Size : " + stackSample.size());
         stackSample.show();
-        //Checking if Stack is full
+        //Checking if src.Stack is full
         System.out.println();
         System.out.println("Is Full : " + stackSample.isFull());
 
-        //Popping the values out to Stack
+        //Popping the values out to src.Stack
         System.out.println("Popped Value : " + stackSample.pop());
         System.out.println("Popped Value : " + stackSample.pop());
         System.out.println("Popped Value : " + stackSample.pop());
-        //Peeking the values from Stack
+        //Peeking the values from src.Stack
         System.out.println("Peeked Value : " + stackSample.peek());
-        //Checking the size of the Stack
+        //Checking the size of the src.Stack
         System.out.println("Size : " + stackSample.size());
         stackSample.show();
-        //Checking if Stack is empty
+        //Checking if src.Stack is empty
         System.out.println("Is Empty : " + stackSample.isEmpty());
     }
 }
